@@ -1,0 +1,19 @@
+Call to appendRow() returned success.
+Call to appendCol() returned success.
+Printing output of find(6.0): (3,1)
+Printing output of find(-6.0): 
+Printing output of find(-6.7): (8,5)
+Number of rows = 11
+Number of columns = 11
+Call to update(2,5,-1.0) returned success.
+Call to update(10,10,1.0) returned success.
+Call to update(11,11,2.5) returned failure.
+Printing output of entries(): (2,5,-1.00) | (3,1,6.00) | (8,5,-6.70) | (9,9,2.00) | (10,10,1.00)
+Call to insertRow(1) returned success.
+Call to insertCol(4) returned success.
+Call to insertRow(-2) returned failure.
+Number of rows = 12
+Number of columns = 12
+Printing output of entries(): (3,6,-1.00) | (4,1,6.00) | (9,6,-6.70) | (10,10,2.00) | (11,11,1.00)
+Call to update(2,5,-2.0) returned success.
+Printing output of entries(): (2,5,-2.00) | (3,6,-1.00) | (4,1,6.00) | (9,6,-6.70) | (10,10,2.00) | (11,11,1.00)
