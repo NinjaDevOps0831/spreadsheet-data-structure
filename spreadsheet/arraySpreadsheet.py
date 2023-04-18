@@ -74,7 +74,7 @@ class ArraySpreadsheet(BaseSpreadsheet):
         @return True if operation was successful, or False if not, e.g., rowIndex is invalid.
         """
 
-        if (rowIndex > 0 and rowIndex < self.c_row):
+        if (rowIndex >= 0 and rowIndex < self.c_row):
             for i in range(rowIndex, len(self.data)):
                 for j in range(len(self.data[i])):
                     self.data[i][j].row += 1
